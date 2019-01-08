@@ -1,19 +1,404 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-    <meta charset="UTF-8">
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
     <title>Aradhya Ventures</title>
-    <style>
-        body{
-            height:100%;
-            width:100%;
-            margin:auto;
-            background-image:url('images/maintainance.jpg');
-            background-size:cover;
-        }
-    </style>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="images/logoav.png" type="image/x-icon">
+    <link rel="icon" href="images/logoav.png" type="image/x-icon">
+
 </head>
-<body>
+
+
+<body id="top">
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="row">
+
+            <div class="header-logo">
+                <a class="site-logo" href="index.html"><img src="images/logoav.png" alt="Homepage"></a>
+            </div>
+            
+            <nav class="header-nav-wrap">
+                <ul class="header-nav">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
+            </nav> <!-- end header-nav-wrap -->
+            
+            <a class="header-menu-toggle" href="#0">
+                <span class="header-menu-icon"></span>
+            </a>
+
+        </div> <!-- end row -->
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+                <div id="home_left">
+                    <h1>
+                    Creating With Heart; <br>
+                    Building with mind.<br>
+                    </h1>
+
+                    <div class="home-content__button">
+                        <a href="#about" class="smoothscroll btn btn-animatedbg">
+                            More About Us
+                        </a>
+                    </div>
+                </div>
+
+                <div id="home_right">
+                    <div class="home-content__video">
+                        <img src="images/homepage/img1.jpg">
+                    </div>
+                </div>
+
+            </div> <!-- end home-content__main -->
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    Scroll
+                </a>
+            </div>
+
+        </div> <!-- end home-content -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="01" class="subhead">Who We Are</h3>
+                <h1 class="display-1">
+                Aradhya Ventures is an integrated construction, infrastructure development
+                and management company which has been built on the basis of Ganesh
+                Group of companies. Ganesh Group of companies has expanded its wings
+                in various sectors.
+                </h1>
+                <div class="lead">
+                    <div>GANESH Group consists of the following firms catering to different sectors of the industry.</div>
+                    <ul>
+                        <li>Ganesh Rolling Shutters And Engineering works Estd 1968</li>
+                        <li>Ganesh Sand Blasting Works Estd. 1994</li>
+                        <li>Sri Sai Balaji Engineering Estd. 2000</li>
+                        <li>M.Ranga Reddy & Sons. Estd. 1992</li>
+                        <li>Aradhya Ventures. Estd. 2016</li>
+                        <li>Aradhya Constructions DMCC (Dubai). Estd. 2017</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row about-process block-1-2 block-tab-full">
+
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--planning">
+                    <h3>Vision</h3>
+                </div>
+                <p>
+                    We are a family owned company, committed to becoming the contractor of choice, pursuing
+                    excellence through dedication, experience and disciplined employees with an ongoing passion to
+                    deliver quality, timely and profitable projects.
+                </p>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--branding">
+                    <h3>Mission</h3>
+                </div>
+                <p>
+                    We will deliver reliable, high-quality solutions for global infrastructure, always ensuring that
+                    integrity, safety and sustainability are at the heart of everything we do and also to provide
+                    construction and asset management solutions in an environment where people feel safe, secure
+                    and valued.
+                </p> 
+            </div>
+
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--documentation">
+                    <h3>Values</h3>
+                </div>
+                <p>
+                    We believe in having Dedication, Commitment, Ethics, Reliability, Safety, Quality, Trust,
+                    Integrity, Measured Performance, Expertise. Ganesh Rolling Shutters and Engineering works is
+                    engaged in manufacturing Rolling Shutters, Steel Windows, Steel Doors, Pre Engineered
+                    Buildings, Tubular and Angular Structures, and also Government Building Contractors.
+                </p>
+            </div>
+
+        </div>  <!-- end about-process -->
+
+        <div class="row page_content">
+
+                <p data-aos="fade-up">
+                    Ganesh Sand Blasting Works is engaged in Sand, Shot, Grit, Copper Slag Blasting, and
+                    Metallizing (Aluminum and Zinc Metal Spray), All Kinds of Industrial Painting.
+                </p>
+
+                <p data-aos="fade-up">
+                    Sri Sai Balaji Engineering is engaged in manufacture of Aluminium Corona Shields,
+                    Aluminium Corona Rings and Switchgear related components.
+                    M.Ranga Reddy & Sons is into Film Exhibition consisting of Group of Theatres Ganesh
+                    70mm, Ranga 70mm, Sai Ranga 70mm.
+                </p>
+                <p data-aos="fade-up">
+                    M.Ranga Reddy & Sons is into Film Exhibition consisting of Group of Theatres Ganesh
+                    70mm, Ranga 70mm, Sai Ranga 70mm.
+                </p>
+                <p data-aos="fade-up">
+                    Aradhya Ventures mainly focuses on manufacturing activity of steel buildings (pre-
+                    engineered buildings), in the oil and natural gas, industrial construction sector and also
+                    specialize in surface finishing and industrial coatings (TSA coatings, Anti slip coatings,
+                    hot-dip galvanizing, metal spray, epoxy coatings, polyurethane coatings, powder coating),
+                    pipeline coatings (cement guniting, food grade epoxy coatings).
+                </p>
+                <p data-aos="fade-up">
+                    In Oil and Natural gas sector we have acquired international projects which is to
+                    be operated by our subsidiary Aradhya Constructions DMCC, Dubai, UAE. We are
+                    working at Al- Zour Oil Refinery- Kuwait, where we carry out the activities of Garnet
+                    Blasting , Shot and Grit Auto Blasting and Painting and Lining for the Oil storage Tanks.
+                </p>
+            </div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="02" class="subhead">What We Do</h3>
+                <h1 class="display-1 display-1--light">
+                We handle a wide variety of
+                jobs Domestic and International
+                in various sectors like Irrigation,
+                Oil & Gas, Cement Plants, Power
+                Plants, Pipelines & Pressure
+                Vessels.
+                </h1>
+            </div>
+        </div>
+
+        <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Abrasive Blasting</h4>
+                <div>
+                    <ul>
+                        <li>Sand Blasting</li>
+                        <li>Shot Blasting</li>
+                        <li>Grit Blasting</li>
+                        <li>Copper Slag Blasting</li>
+                        <li>Garnet Blasting</li>
+                        <li>Guniting</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Metalizing</h4>
+                <div>
+                    <ul>
+                        <li>Zinc Metal Spray</li>
+                        <li>Aluminium Metal Spray</li>
+                        <li>Hot Dip Galvanizing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Industrial Painting</h4>
+                <div>
+                    <ul>
+                        <li>Primer</li>
+                        <li>Enamel</li>
+                        <li>Epoxy</li>
+                        <li>PU</li>
+                        <li>Coal Tar</li>
+                        <li>Food Grade Paints</li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="03" class="subhead">Recent Works</h3>
+                <h1 class="display-1">
+                Here are some of our favorite projects we have
+                done lately. Feel free to check them out.
+                </h1>
+            </div>
+        </div>
+
+        <div class="portfolio block-1-4 block-m-1-3 block-tab-1-2 collapse">
+            <div class="img_block">
+                <img src="images/portfolio/1.jpg">
+            </div>
+            <div class="img_block">
+                <img src="images/portfolio/2.PNG">
+            </div>
+            <div class="img_block">
+                <img src="images/portfolio/4.jpg">
+            </div>
+            <div class="img_block">
+                <img src="images/portfolio/5.jpg">
+            </div>
+            <div class="img_block">
+                <img src="images/portfolio/6.jpg">
+            </div>
+            <div class="img_block">
+                <img src="images/portfolio/7.jpg">
+            </div>
+            <div class="img_block">
+                <img src="images/portfolio/8.PNG">
+            </div>
+            <div class="img_block">
+                <img src="images/portfolio/3.PNG">
+            </div>
+            <div class="img_block">
+                <img src="images/portfolio/9.JPG">
+            </div>
+            <div class="img_block">
+                <img src="images/portfolio/10.jpg">
+            </div>
+            <div class="img_block">
+                <img src="images/portfolio/11.jpg">
+            </div>
+            <div class="img_block">
+                <img src="images/portfolio/12.jpg">
+            </div>
+        </div> <!-- end portfolio -->
+
+    </section> <!-- end s-works -->
+
+
+    <!-- stats
+    ================================================== -->
+    <section id="stats" class="s-stats">
+
+        <div class="row stats-block block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+                
+            <div class="col-block item-stats ">
+                <div class="item-stats__count">210</div>
+                <h5>Projects Completed</h5>
+            </div>
+            <div class="col-block item-stats">
+                <div class="item-stats__count">500</div>
+                <h5>Happy Clients</h5>
+            </div>
+
+        </div> <!-- end stats -->
+
+    </section> <!-- end s-stats -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="04" class="subhead">Get In Touch</h3>
+                <h1 class="display-1 display-1--light">Let’s make something awesome together!
+                    Drop us a line, or give us a heads up if you are interested in visiting us.Let’s make something awesome together!
+                    Drop us a line, or give us a heads up if you are interested in visiting us.<br><br>
+                    Mail:<a href="mailto:#0">hello@Aradhya Ventures.com</a><br><br>
+                    Phone: +91 9394666947, +91 9347792888<br><br>
+                    Address:<br>
+                    Office: H. no. 6-3-597/1/A, Venkatramana Colony, Khairtabad, Hyderabad-04.<br>
+                    Workshop: Plot no. 52, Phase 1, IDA Jeedimetla, Hyderabad-55.<br>
+                </h1>
+            </div>
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full cl-copyright">
+                <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</span>
+            </div>
+        </div>
+
+        <div class="cl-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+    </footer>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/masonary.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
-</html>
