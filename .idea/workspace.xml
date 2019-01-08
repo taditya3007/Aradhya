@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77b0246c-dc9e-4656-bfb4-ffc24ea0f725" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/portfolio/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/portfolio/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/portfolio/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/portfolio/3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/portfolio/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/portfolio/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/portfolio/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/portfolio/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/portfolio/8.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/portfolio/9.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/maintainance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hero-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/services-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/stats-bg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,17 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="318" column="18" selection-start-line="318" selection-start-column="18" selection-end-line="318" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="398" column="32" selection-start-line="398" selection-start-column="32" selection-end-line="398" selection-end-column="32" />
+            <state relative-caret-position="397">
+              <caret line="404" column="30" selection-start-line="404" selection-start-column="30" selection-end-line="404" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -44,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="2785" column="17" selection-start-line="2785" selection-start-column="17" selection-end-line="2785" selection-end-column="17" />
+            <state relative-caret-position="413">
+              <caret line="1709" column="24" selection-start-line="1709" selection-start-column="24" selection-end-line="1709" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -61,19 +46,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>we can handle</find>
-      <find>F26522</find>
-      <find>worksho</find>
-      <find>#035D5C</find>
-      <find>background-im</find>
-      <find>color</find>
-      <find>Get in touch</find>
-      <find>icon-quote</find>
-      <find>fav</find>
-      <find>logoav</find>
       <find>110</find>
-      <find>services</find>
-      <find>services-bg</find>
       <find>logo</find>
       <find>`</find>
       <find>pswp</find>
@@ -87,6 +60,22 @@
       <find>background-color:</find>
       <find>portfolio</find>
       <find>@media</find>
+      <find>img1</find>
+      <find>background-ima</find>
+      <find>__video</find>
+      <find>services</find>
+      <find>services-bg</find>
+      <find>stats-bg</find>
+      <find>hello</find>
+      <find>1869</find>
+      <find>s-header</find>
+      <find>header-logo</find>
+      <find>site-logo</find>
+      <find>@</find>
+      <find>800</find>
+      <find>company_name</find>
+      <find>pointer-</find>
+      <find>pro</find>
     </findStrings>
     <replaceStrings>
       <replace>0092b3</replace>
@@ -143,12 +132,7 @@
               <item name="Aradhya_Ventures" type="b2602c69:ProjectViewProjectNode" />
               <item name="Aradhya_Ventures" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Aradhya_Ventures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aradhya_Ventures" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,9 +149,9 @@
       <recent name="F:\PROJECTS\Aradhya_Ventures\images\portfolio" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PROJECTS\Aradhya_Ventures\images" />
       <recent name="F:\PROJECTS\Aradhya_Ventures\images\portfolio" />
       <recent name="F:\PROJECTS\Aradhya_Ventures\images\portfolio\gallery" />
-      <recent name="F:\PROJECTS\Aradhya_Ventures\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,83 +210,41 @@
     <entry file="file://$PROJECT_DIR$/images/icons/icon-arrow-right.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/icons/icon-mail.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icons/icon-mail.svg" />
     <entry file="file://$PROJECT_DIR$/images/icons/icon-planning.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/icons/icon-play.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icons/icon-quote.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icons/icon-play.svg" />
+    <entry file="file://$PROJECT_DIR$/images/icons/icon-quote.svg" />
     <entry file="file://$PROJECT_DIR$/images/icons/icon-arrow-up.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/icons/icon-documentation.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/avatars/user-01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/clients/icon-atom.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icons/icon-implementation.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/portfolio/droplet.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/portfolio/droplet@2x.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/portfolio/film.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/portfolio/gallery/g-droplet.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/avlg.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/avatars/user-01.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/clients/icon-atom.svg" />
+    <entry file="file://$PROJECT_DIR$/images/icons/icon-implementation.svg" />
+    <entry file="file://$PROJECT_DIR$/images/portfolio/droplet.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/portfolio/droplet@2x.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/portfolio/film.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/portfolio/gallery/g-droplet.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/avlg.svg" />
     <entry file="file://$PROJECT_DIR$/images/hero-bg.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/logoav.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/logosvg.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/services-bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/stats-bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/wheel-500.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/logo.png" />
+    <entry file="file://$PROJECT_DIR$/images/logo.svg" />
+    <entry file="file://$PROJECT_DIR$/images/logoav.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/logosvg.svg" />
+    <entry file="file://$PROJECT_DIR$/images/wheel-500.jpg" />
     <entry file="file://$PROJECT_DIR$/css/vendor.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-960" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/sample-image.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/avlogo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/sample-image.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/avlogo.svg" />
     <entry file="file://$PROJECT_DIR$/js/masonary.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -317,17 +259,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/services-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/stats-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/page4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="318" column="18" selection-start-line="318" selection-start-column="18" selection-end-line="318" selection-end-column="18" />
+        <state relative-caret-position="397">
+          <caret line="404" column="30" selection-start-line="404" selection-start-column="30" selection-end-line="404" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="2785" column="17" selection-start-line="2785" selection-start-column="17" selection-end-line="2785" selection-end-column="17" />
+        <state relative-caret-position="413">
+          <caret line="1709" column="24" selection-start-line="1709" selection-start-column="24" selection-end-line="1709" selection-end-column="24" />
         </state>
       </provider>
     </entry>

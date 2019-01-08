@@ -1695,11 +1695,20 @@ input::-moz-focus-inner {
 }
 
 .header-logo a {
-  display: block;
+  display: inline-block;
   margin: 3px 0 0 0;
   padding: 0;
   outline: 0;
   border: none;
+}
+.company_name{
+    display: inline-block;
+    color: #fff;
+    vertical-align: top;
+    padding-left: 130px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    font-family:Montserrat, sans-serif;font-weight: 600;
 }
 
 .header-logo img {
@@ -1824,7 +1833,7 @@ input::-moz-focus-inner {
   letter-spacing: .3rem;
   position: absolute;
   top: 0;
-  left: 200px;
+  right:0;
 }
 
 .header-nav {
@@ -1859,7 +1868,14 @@ input::-moz-focus-inner {
   .s-header {
     top: 0;
   }
-
+  .company_name{
+    padding-left: 145px;
+    padding-top: 33px;
+  }
+  .sticky .company_name{
+    padding-left: 130px !important;
+    padding-top: 20px !important;
+  }
   .s-header > .row {
     max-width: none;
     width: auto;
@@ -1867,7 +1883,7 @@ input::-moz-focus-inner {
 
   .header-logo {
     left: 40px;
-    top: 3rem;
+    top: 1rem;
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -2688,7 +2704,7 @@ html.no-csstransitions .home-content__main {
   background-color: #151515;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(../images/services-bg.jpg);
+  background-image: url(../images/Page3.jpg);
   background-size: cover;
   position: relative;
   color: rgba(255, 255, 255, 0.5);
@@ -3344,9 +3360,9 @@ html.no-csstransitions .home-content__main {
   padding-bottom: 5.4rem;
   color: rgba(255, 255, 255, 0.5);
   background-color: #000000;
-  background-image: url(../images/stats-bg.jpg);
+  background-image: url(../images/page4.jpg);
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center;
   background-size: cover;
   overflow: hidden;
   position: relative;

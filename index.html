@@ -54,7 +54,7 @@
             <div class="header-logo">
                 <a class="site-logo" href="index.html"><img src="images/logoav.png" alt="Homepage"></a>
             </div>
-            
+            <div class="company_name">ARADHYA VENTURES</div>
             <nav class="header-nav-wrap">
                 <ul class="header-nav">
                     <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
@@ -76,7 +76,7 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/homepage/img1.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="shadow-overlay"></div>
 
@@ -96,11 +96,11 @@
                     </div>
                 </div>
 
-                <div id="home_right">
+                <!--<div id="home_right">
                     <div class="home-content__video">
                         <img src="images/homepage/img1.jpg">
                     </div>
-                </div>
+                </div>-->
 
             </div> <!-- end home-content__main -->
 
@@ -362,9 +362,8 @@
             <div class="col-full">
                 <h3 data-num="04" class="subhead">Get In Touch</h3>
                 <h1 class="display-1 display-1--light">Let’s make something awesome together!
-                    Drop us a line, or give us a heads up if you are interested in visiting us.Let’s make something awesome together!
                     Drop us a line, or give us a heads up if you are interested in visiting us.<br><br>
-                    Mail:<a href="mailto:#0">hello@Aradhya Ventures.com</a><br><br>
+                    Mail:<a href="mailto:#0">info@aradhyaventures.com</a><br><br>
                     Phone: +91 9394666947, +91 9347792888<br><br>
                     Address:<br>
                     Office: H. no. 6-3-597/1/A, Venkatramana Colony, Khairtabad, Hyderabad-04.<br>
@@ -400,5 +399,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/plugins.js"></script>
     <script src="js/masonary.js"></script>
     <script src="js/main.js"></script>
-
+    <script>
+        $(window).bind('load',function(){
+            setTimeout(function(){
+                $('.pace-progress').css('display','none');
+            },10000);
+        })
+    </script>
 </body>
